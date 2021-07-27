@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 52px 100px;
+  width: 90%;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+}
+
+header .logo .logo__img {
+  width: 16px;
+  height: 16px;
+  background: #ff922c;
+  margin-right: 5px;
+  background-image: url("/images/Ellipse 7.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header .logo .logo__txt {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+header .nav-bar {
+  margin-left: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+}
+
+header .nav-bar nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav-bar nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 60px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+header .nav-bar .shopping {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav-bar .shopping img {
+  width: 18px;
+  height: 21px;
+}
+
+.hero {
+  position: absolute;
+  width: 1177px;
+  height: 1177px;
+  left: 283px;
+  top: -645px;
+  background: #ffeede;
+  z-index: -1;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=main.css.map */

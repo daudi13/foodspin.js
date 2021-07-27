@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+    box-shadow: ;
+}
+
+header {
+    display: flex;
+    margin: 52px 100px;
+    width: 90%;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        width: 20%;
+
+        .logo__img {
+            width: 16px;
+            height: 16px;
+            background: #ff922c;
+            margin-right: 5px;
+            background-image: url('/images/Ellipse\ 7.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        .logo__txt {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+
+    .nav-bar {
+        margin-left: 170px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+
+        nav ul {
+            list-style: none;
+            display: flex;
+
+            li a {
+                text-decoration: none;
+                color: inherit;
+                margin-right: 60px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+                text-transform: capitalize;
+                color: #333333;
+            }
+        }
+
+        .shopping {
+            align-items: center;
+            display: flex;
+
+            img {
+                width: 18px;
+                height: 21px;
+            }
+        }
+    }
+}
